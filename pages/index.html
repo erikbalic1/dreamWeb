@@ -31,6 +31,28 @@
         </h2>
     </div>
     <div class="musicPlayer">
+        <h1>Music Player</h1>
+        <h2>If you want to have some vibe, turn on the music!</h2>
+        <div class="track-name">Current Track Name</div>
+        <div class="track-artist">Current Track Artist</div>
+        <div class="musicSlider">
+            <div class="current_time">0:00</div>
+            <input type="range" min="0" max="100" value="0" class="seek_slider" onchange="seekTo()">
+            <div class="total-duration">0:00</div>
+        </div>
+        <div class="musicIcons">
+            <i class='bx bx-repeat'></i>
+            <i class='bx bx-skip-next bx-rotate-180' ></i>
+            <i class='bx bx-pause' ></i>
+            <i class='bx bx-play'></i>
+            <i class='bx bx-skip-next' ></i>
+            <i class='bx bx-shuffle' ></i>
+        </div>
+        <div class="musicVolume">
+            <i class='bx bxs-volume-low'></i>
+            <input type="range" min="0" max="100" value="99" class="seek_slider" onchange="setVolume()">
+            <i class='bx bxs-volume-full' ></i>
+        </div>
         <audio>
             <source src="../music/Blue Ribbons - TrackTribe.mp3">
             <source src="../music/Colony - TrackTribe.mp3">

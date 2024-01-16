@@ -54,9 +54,77 @@ nav .navbarLinks a.selected {
     background-color: rgba(0, 0, 0, .5);
     padding: 200px 200px;
     border-radius: 25px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top: 100px;
     cursor: pointer;
+}
+.musicPlayer {
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 25px;
+    width: 43%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.track-name {
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+}
+.track-artist {
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+.musicSlider {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    display: flex;
+}
+.musicIcons {
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    font-size: 50px;
+}
+.musicVolume {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+}
+.musicPlayer h1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.musicPlayer h2 {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.musicIcons i:hover,
+.musicIcons i.selected {
+    color: #573E92;
+    font-weight: bolder;
+    transition: color 0.5s ease-in-out;
 }
 footer {
     color: white;
@@ -91,25 +159,4 @@ footer p {
 footer .socials a{
     text-decoration: none;
     color: white;
-}
-@media screen and (max-width: 768px) {
-    body {
-        background-color: #18222A ;
-    }
-    nav .dreamWeb {
-        display: none;
-    }
-    nav .navbarLinks {
-        display: block;
-        list-style-type: none;
-        float: left;
-        width: auto;
-    }
-    .information {
-        width: 100%;
-        margin: 0;
-    }
-    footer {
-        align-items: center;
-    }
 }
