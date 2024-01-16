@@ -93,10 +93,23 @@ footer .socials a{
     color: white;
 }
 @media screen and (max-width: 768px) {
+    body {
+        background-color: #18222A ;
+    }
     nav .dreamWeb {
         display: none;
     }
     nav .navbarLinks {
-        justify-content: center;
+        display: block;
+        list-style-type: none;
+        float: left;
+        width: auto;
+    }
+    .information {
+        width: 100%;
+        margin: 0;
+    }
+    footer {
+        align-items: center;
     }
 }
